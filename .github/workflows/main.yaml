@@ -5,8 +5,7 @@ env:
 on:
   push:
     branches:
-      - main
-
+      - master
 jobs:
   pre_job:
     runs-on: ubuntu-latest
